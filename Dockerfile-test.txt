@@ -1,0 +1,12 @@
+# Here to test this issue:
+
+https://github.com/TanStack/router/discussions/4952
+
+# 1.
+docker build --file Dockerfile --tag modulus_registry_test:app-1.0 .
+
+# 2. up
+docker compose --project-directory . --file ./docker-compose.yml --project-name modulus-registry-app up
+
+#3. down
+docker compose --project-directory . --file ./docker-compose.yml --project-name modulus-registry-app down
