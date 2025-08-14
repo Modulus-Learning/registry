@@ -1,0 +1,8 @@
+# Other commands
+docker images
+docker image rm <image name or id>
+docker system prune
+docker volume prune
+
+# Shell into running container
+docker exec -it modulus_registry_app sh

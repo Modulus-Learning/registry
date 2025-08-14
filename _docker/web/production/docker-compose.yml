@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: modulus_registry:app-1.0.0
+    container_name: modulus_registry_app
+    ports:
+      - 80:8000
