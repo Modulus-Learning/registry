@@ -3,6 +3,8 @@
 /* @import "tailwindcss/preflight.css" layer(base); */
 @import "tailwindcss/utilities.css" layer(utilities);
 
+@source "../../../";
+
 @custom-variant dark (&:is(.dark *));
 
 @theme {
