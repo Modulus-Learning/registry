@@ -5,8 +5,8 @@ import type * as React from 'react'
 import { DefaultCatchBoundary } from '~/components/default-catch-boundary'
 import { NotFound } from '~/components/not-found'
 import { Providers } from '~/components/providers'
+import appCss from '~/ui/styles/global.css?url'
 import { seo } from '~/utils/seo'
-import appCss from '../ui/styles/global.css?url'
 
 export const Route = createRootRoute({
   head: () => ({

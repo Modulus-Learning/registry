@@ -21,6 +21,7 @@ function Home() {
   return (
     <div className="layout-container flex min-h-screen flex-col">
       <AppBarFront lng="en" />
+      {/** biome-ignore lint/correctness/useUniqueElementIds: id is fine here */}
       <main id="main-content" className="flex flex-1 flex-col">
         <Section>
           <Container>
