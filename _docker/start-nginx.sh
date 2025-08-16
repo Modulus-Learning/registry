@@ -8,7 +8,7 @@
 # sleep 5
 # read -p "Waiting 5 seconds before starting nginx." -t 5
 
-echo -e "\n==> Starting nginx...."
+echo -e "\n==> Starting Nginx...."
 
 # while [[ $(ps -aux | grep "node -r") == "" ]];
 # do
